@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="../share/style.css" type="text/css" />
+<script type="text/javascript" language="javascript">   
+function extendPluginFrame() {   
+var frame = document.getElementById("plugin_frame");   
+if (frame != null) {
+	var doc = frame.contentDocument || frame.document;
+	frame.height = doc.documentElement.scrollHeight;
+}   
+}   
+</script>
+</head>
+<body bgcolor="white" style="margin:0;">
+<div class="wrap">
+<div class="top_bar">
+<div class="header_text">+ SAO Utils User Guide</div>
+<div class="top_block"></div>
+</div>
+<div class="side_bar">
+	<img src="../share/guide.jpg" />
+	<div class="navi_wap">
+	<div>□ Overview</div>
+	<div>□ FAQ</div>
+	<br />
+	<div>○ Plug-in Manuals</div>
+	<iframe id="plugin_frame" src="../share/plugin.html" frameborder="0" width="100%" onLoad="extendPluginFrame()"></iframe>
+	<br />
+	<div>□ About</div>
+	</div>
+</div>
+<div class="content_wrap">
+<div class="title_wrap">
+	<div class="title_pad">
+	<div class="title_text">
+	<p id="title_sub">Getting Started with SAO Utils</p>
+	<p id="title_main">Overview</p>
+	</div>
+	</div>
+</div>
+<div class="title_sep"></div>
+<div class="content">
+<div class="content_image"><img src="../share/overview.jpg" /></div>
+<div class="content_text">
+<p>Please visit <a href="http://nvg.gpbeta.com/manual/" target="_blank">SAO Utils User Guideline</a> to read the full manual.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

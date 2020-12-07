@@ -1,0 +1,15 @@
+# Folders
+
+/bin/win32/Config
+/bin/win64/Config
+/bin/win32/Plugins/NET Data Source
+/bin/win64/Plugins/NET Data Source
+
+# VS files
+
+/.vs
+
+# Build Results of an ATL Project
+
+/Net Data Source/obj
+

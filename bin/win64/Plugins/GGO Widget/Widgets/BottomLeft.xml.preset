@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+  <list>
+    <list>
+      <item>
+        <name>Custom</name>
+        <type>1</type>
+        <size>54</size>
+      </item>
+      <item>
+        <name>Humidty</name>
+        <type>2</type>
+        <size>82</size>
+        <data>
+          <source>52A2372B-6F05-4CC3-BF39-9B839E36D3FA</source>
+          <data>B75FED10-201B-4467-BA89-BEDA418D4FF1</data>
+          <value>4</value>
+          <mode>0</mode>
+          <interval>60000</interval>
+          <suffix> %</suffix>
+          <update>Guangzhou</update>
+          <unit>%</unit>
+        </data>
+      </item>
+    </list>
+    <list>
+      <item>
+        <name>Custom</name>
+        <type>1</type>
+        <size>54</size>
+        <image>.\Images\sun.png</image>
+      </item>
+      <item>
+        <name>Temperature</name>
+        <type>2</type>
+        <size>82</size>
+        <data>
+          <source>52A2372B-6F05-4CC3-BF39-9B839E36D3FA</source>
+          <data>B75FED10-201B-4467-BA89-BEDA418D4FF1</data>
+          <value>1</value>
+          <mode>0</mode>
+          <interval>60000</interval>
+          <update>Guangzhou</update>
+          <suffix/>
+          <unit>°C</unit>
+        </data>
+      </item>
+    </list>
+  </list>
+</widget>
