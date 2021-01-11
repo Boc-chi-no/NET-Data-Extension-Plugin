@@ -236,6 +236,7 @@
     <ClInclude Include="include\defs.h" />
     <ClInclude Include="include\HttpData.h" />
     <ClInclude Include="include\DataSource.h" />
+    <ClInclude Include="include\ref.h" />
     <ClInclude Include="include\WininetHttp.h" />
   </ItemGroup>
   <ItemGroup>

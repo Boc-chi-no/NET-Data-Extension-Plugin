@@ -1,5 +1,6 @@
 # Folders
 
+/NERvSDK/Package
 /bin/win32/Config
 /bin/win64/Config
 /bin/win32/Plugins/NET Data Source
@@ -12,4 +13,5 @@
 # Build Results of an ATL Project
 
 /Net Data Source/obj
+/NERvSDK/Build/obj
 

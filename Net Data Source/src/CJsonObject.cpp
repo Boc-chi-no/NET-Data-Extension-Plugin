@@ -444,7 +444,10 @@ namespace neb
             }
             else
             {
-                snprintf(szNumber, sizeof(szNumber), e_P.data(), pJsonStruct->valuedouble);
+                if (divisor > 1)
+                    snprintf(szNumber, sizeof(szNumber), e_P.data(), pJsonStruct->valuedouble/divisor);
+                else
+                    snprintf(szNumber, sizeof(szNumber), e_P.data(), pJsonStruct->valuedouble);
             }
             return(std::string(szNumber));
         }
